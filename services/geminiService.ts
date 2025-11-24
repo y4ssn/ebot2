@@ -101,7 +101,7 @@ export const editMaintenanceImage = async (base64Image: string, prompt: string):
         ]
       }
     });
-    return response.text; 
+    return response.text ?? null; 
 
   } catch (error) {
     console.error("Lens Edit Error:", error);
