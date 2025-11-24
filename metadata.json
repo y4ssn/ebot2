@@ -1,0 +1,8 @@
+{
+  "name": "The Plaza OS",
+  "description": "A high-fidelity, luxury property management operating system powered by advanced AI.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
